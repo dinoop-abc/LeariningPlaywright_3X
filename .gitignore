@@ -7,3 +7,10 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 .commandcode/
+
+# Environment & secrets
+.env
+user-session.json
+
+# Allure
+/allure-results/

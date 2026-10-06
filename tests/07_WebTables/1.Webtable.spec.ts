@@ -5,7 +5,7 @@ test('Verify the Webtable Example 1', async ({ page }) => {
 await page.goto("https://awesomeqa.com/webtable.html", { waitUntil: "domcontentloaded" });
 await page.waitForLoadState("networkidle");
 
-   //table[@id="customers"]/tbody/tr[5]/td[2]
+    //table[@id="customers"]/tbody/tr[5]/td[2]
    // // 5 - i , 1 to 7 ( 1 header) 2 to 7
    // ]/td[
    // 2 - j , j -> 1,2,3

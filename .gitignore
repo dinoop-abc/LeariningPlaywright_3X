@@ -14,3 +14,6 @@ user-session.json
 
 # Allure
 /allure-results/
+
+# Test download artifacts
+/out/

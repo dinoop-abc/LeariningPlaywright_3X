@@ -1,0 +1,8 @@
+description	username	password	shouldPass	expectedError
+valid credentials	admin@gamil.com	admin123	TRUE	
+invalid password	admin@gamil.com	wrongpass	FALSE	Invalid credentials
+empty username		admin123	FALSE	Username is required
+empty password	admin@gamil.com		FALSE	Password is required
+locked account	locked_user@gamil.com	pass123	FALSE	Account is locked
+special chars	admin@gamil.com	p@$$w0rd!	TRUE	
+SQL injection attempt	admin' OR '1'='1	password	FALSE	Invalid credentials

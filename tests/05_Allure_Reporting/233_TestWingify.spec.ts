@@ -13,3 +13,4 @@ test("go directly to dashboard — Test1", async ({ page }) => {
     console.log("Dashboard loaded — no login needed ✅");
     await page.waitForTimeout(3000);
 });
+

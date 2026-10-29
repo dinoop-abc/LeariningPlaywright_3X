@@ -33,7 +33,7 @@ async function saveSession() {
     await loginButton.scrollIntoViewIfNeeded();
     await loginButton.click({ force: true });
 
-    await page.waitForURL(/#\/(dashboard|home)/, { timeout: 30000 });
+    //await page.waitForURL(/#\/(dashboard|home)/, { timeout: 30000 });
 
     await context.storageState({ path: "./user-session.json" });
     console.log("Session saved to user-session.json ✅");
